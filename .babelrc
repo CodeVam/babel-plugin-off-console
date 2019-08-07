@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "modules": "commonjs",
+      "targets": {
+        "browsers": ["iOS >= 8", "Android >= 4", "not dead", "not ie <= 8"]
+      }
+    }]
+  ]
+}
+

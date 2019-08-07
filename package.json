@@ -1,0 +1,31 @@
+{
+  "name": "babel-plugin-off-console",
+  "version": "0.0.1",
+  "description": "This is a plugin for babel to off the `console` in production env",
+  "keywords": [
+    "babel",
+    "plugin",
+    "console",
+    "off"
+  ],
+  "main": "index.js",
+  "author": "CodeVam",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CodeVam/babel-plugin-off-console.git"
+  },
+  "bugs": {
+    "email": "wszda788@qq.com",
+    "url": "https://github.com/CodeVam/babel-plugin-off-console/issues"
+  }  
+}
